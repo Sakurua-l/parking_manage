@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="parking:war" />
+      <artifact name="parking:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3eedb3b3-98fc-4ce7-ad43-feb3ebb30c8f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/parking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/drx/MyUtil/MyDateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/userManger.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/controller/CarController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/controller/FareController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/controller/FareController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/controller/ParkingTimeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/controller/ParkingTimeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/dto/FareMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/dto/FareMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/dto/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/dto/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/dto/TokenMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/dto/TokenMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/dto/UserMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/dto/UserMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/mapper/DriverMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/mapper/DriverMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/mapper/DriverMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/mapper/DriverMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/mapper/FareMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/mapper/FareMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/mapper/FareMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/mapper/FareMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/mapper/ParkingTimeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/mapper/ParkingTimeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/mapper/ParkingTimeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/mapper/ParkingTimeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/po/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/po/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/po/Fare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/po/Fare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/po/ParkingTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/po/ParkingTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/po/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/service/FareService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/service/FareService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/service/ParkingTimeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/service/ParkingTimeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/serviceImpl/CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/serviceImpl/CarServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/serviceImpl/DriverServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/serviceImpl/DriverServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/serviceImpl/FareServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/serviceImpl/FareServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/serviceImpl/ParkingTimeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/serviceImpl/ParkingTimeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/drx/serviceImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/drx/serviceImpl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datasource.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/springMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jump.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/jump.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/member.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/member.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/passwordReset.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/passwordReset.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pic/wx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/AppContextListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/IdWorker$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/IdWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/controller/CarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/controller/DriverController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/controller/FareController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/controller/ParkingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/controller/ParkingTimeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/controller/TokenController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/dto/FareMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/dto/Time.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/dto/TokenMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/dto/UserMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/mapper/CarMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/mapper/CarMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/mapper/DriverMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/mapper/DriverMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/mapper/FareMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/mapper/FareMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/mapper/ParkingMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/mapper/ParkingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/mapper/ParkingTimeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/mapper/ParkingTimeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/mapper/TokenMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/mapper/TokenMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/po/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/po/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/po/Fare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/po/Parking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/po/ParkingTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/po/Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/po/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/service/CarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/service/DriverService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/service/FareService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/service/ParkingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/service/ParkingTimeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/service/TokenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/serviceImpl/CarServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/serviceImpl/DriverServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/serviceImpl/FareServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/serviceImpl/ParkingServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/serviceImpl/ParkingTimeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/serviceImpl/TokenServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/drx/serviceImpl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/datasource.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/applicationContext-transaction.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/springMVC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/AppContextListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/IdWorker$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/IdWorker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/controller/CarController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/controller/DriverController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/controller/FareController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/controller/ParkingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/controller/ParkingTimeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/controller/TokenController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/dto/FareMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/dto/Time.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/dto/TokenMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/dto/UserMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/mapper/CarMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/mapper/CarMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/mapper/DriverMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/mapper/DriverMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/mapper/FareMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/mapper/FareMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/mapper/ParkingMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/mapper/ParkingMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/mapper/ParkingTimeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/mapper/ParkingTimeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/mapper/TokenMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/mapper/TokenMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/mapper/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/po/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/po/Driver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/po/Fare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/po/Parking.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/po/ParkingTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/po/Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/po/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/service/CarService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/service/DriverService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/service/FareService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/service/ParkingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/service/ParkingTimeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/service/TokenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/serviceImpl/CarServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/serviceImpl/DriverServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/serviceImpl/FareServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/serviceImpl/ParkingServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/serviceImpl/ParkingTimeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/serviceImpl/TokenServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/com/drx/serviceImpl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/datasource.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/mybatis/mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/spring/applicationContext-dao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/spring/applicationContext-service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/spring/applicationContext-transaction.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/classes/spring/springMVC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/jsp/admin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/jsp/jump.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/jsp/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/jsp/login1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/jsp/main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/jsp/member.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/jsp/passwordReset.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/jsp/register.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/aspectjweaver-1.9.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/c3p0-0.9.5.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/gson-2.8.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/jackson-annotations-2.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/jackson-core-2.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/jackson-databind-2.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/jackson-module-jaxb-annotations-2.9.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/mchange-commons-java-0.2.11.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/mybatis-3.4.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/mybatis-spring-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/mysql-connector-java-8.0.13.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/spring-aop-5.1.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/spring-beans-5.1.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/spring-context-5.1.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/spring-core-5.1.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/spring-expression-5.1.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/spring-jcl-5.1.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/spring-jdbc-5.1.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/spring-tx-5.1.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/spring-web-5.1.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/lib/spring-webmvc-5.1.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/css/calender.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/css/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/css/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/css/table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/js/bootbox/bootbox.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/js/bootbox/bootbox.locales.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/js/bootbox/bootbox.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/js/calender.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/js/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/pic/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/pic/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/pic/car1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/pic/car2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/pic/car3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/pic/index.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/pic/login.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/pic/password.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/pic/register.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/parkingLotSystem/pic/wx.jpg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\Allapplications\CodeTool_app\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ljFoTJHtF7zkRw7rlZPDUXsV4v" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/parking_lot/src/main/java/com/drx/controller/ParkingTimeController.java" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/pic" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\parking_lot\src\main\webapp\html" />
+      <recent name="F:\parking_lot\src\main\webapp\js" />
+      <recent name="F:\parking_lot\src\main\webapp" />
+      <recent name="F:\parking_lot\src\main\webapp\WEB-INF\jsp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LW\Desktop\parking\src\main\webapp\pic" />
+      <recent name="F:\parking_lot\src\main\webapp\pic" />
+      <recent name="F:\parking_lot\src\main\webapp\js\bootbox" />
+      <recent name="F:\parking_lot\src\main\webapp\WEB-INF\jsp\pic" />
+      <recent name="F:\parking_lot\src\main\webapp\WEB-INF\pic" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.parkingLot">
+    <configuration name="IdWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.drx.IdWorker" />
+      <module name="parking_lot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.drx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.12" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="parking_lot:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_parkingLotSystem" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63280" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="parking_lot:war exploded" />
+          <artifact name="parking_lot:war" />
+          <artifact name="parking:war" />
+          <artifact name="parking:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="parkingLot" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.34" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="parking:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/parking_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_parkingLotSystem" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63280" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="parking_lot:war exploded" />
+          <artifact name="parking_lot:war" />
+          <artifact name="parking:war" />
+          <artifact name="parking:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.IdWorker" />
+      <item itemvalue="Tomcat Server.parkingLot" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IdWorker" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3eedb3b3-98fc-4ce7-ad43-feb3ebb30c8f" name="Default" comment="" />
+      <created>1542072930990</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542072930990</updated>
+      <workItem from="1542072934071" duration="7978000" />
+      <workItem from="1542093503855" duration="2077000" />
+      <workItem from="1543451086096" duration="9727000" />
+      <workItem from="1543623572662" duration="5946000" />
+      <workItem from="1543664925975" duration="918000" />
+      <workItem from="1543797374559" duration="781000" />
+      <workItem from="1543798848620" duration="5584000" />
+      <workItem from="1543890306567" duration="637000" />
+      <workItem from="1544056649207" duration="8390000" />
+      <workItem from="1551774832083" duration="1049000" />
+      <workItem from="1551832693853" duration="3268000" />
+      <workItem from="1553053828996" duration="2599000" />
+      <workItem from="1553069776323" duration="2653000" />
+      <workItem from="1553129982722" duration="13495000" />
+      <workItem from="1553218113751" duration="1898000" />
+      <workItem from="1553221461963" duration="14694000" />
+      <workItem from="1553475941577" duration="19665000" />
+      <workItem from="1553562446590" duration="14381000" />
+      <workItem from="1553653109346" duration="5415000" />
+      <workItem from="1553661468221" duration="11336000" />
+      <workItem from="1553735239591" duration="1960000" />
+      <workItem from="1553739709321" duration="69000" />
+      <workItem from="1553843629554" duration="2270000" />
+      <workItem from="1553846338862" duration="1807000" />
+      <workItem from="1554080654857" duration="6014000" />
+      <workItem from="1554170573059" duration="8967000" />
+      <workItem from="1554695351563" duration="7162000" />
+      <workItem from="1554711790419" duration="585000" />
+      <workItem from="1554713321170" duration="94000" />
+      <workItem from="1554777361046" duration="155000" />
+      <workItem from="1554779750130" duration="93000" />
+      <workItem from="1554782534865" duration="612000" />
+      <workItem from="1554861699154" duration="626000" />
+      <workItem from="1554883772711" duration="156000" />
+      <workItem from="1554885716072" duration="9000" />
+      <workItem from="1554948192952" duration="18996000" />
+      <workItem from="1554977627767" duration="13814000" />
+      <workItem from="1555031008623" duration="26089000" />
+      <workItem from="1555064370738" duration="13866000" />
+      <workItem from="1555114812449" duration="7343000" />
+      <workItem from="1555131048873" duration="588000" />
+      <workItem from="1555150488618" duration="38797000" />
+      <workItem from="1555236973678" duration="3137000" />
+      <workItem from="1555290016554" duration="20209000" />
+      <workItem from="1555404346837" duration="726000" />
+      <workItem from="1555478790027" duration="6782000" />
+      <workItem from="1555500994508" duration="3076000" />
+      <workItem from="1555548110625" duration="870000" />
+      <workItem from="1608102771429" duration="5254000" />
+      <workItem from="1608108594976" duration="3229000" />
+      <workItem from="1608116617466" duration="97000" />
+      <workItem from="1608189035230" duration="13333000" />
+      <workItem from="1608260088535" duration="15050000" />
+      <workItem from="1608441113714" duration="12573000" />
+      <workItem from="1608617088946" duration="10167000" />
+      <workItem from="1608643254162" duration="11581000" />
+      <workItem from="1608719476940" duration="1312000" />
+      <workItem from="1608787380278" duration="17227000" />
+      <workItem from="1608856881611" duration="4990000" />
+      <workItem from="1608865731155" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="143" y="66" width="1089" height="753" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608278269745">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="143" y="66" width="1089" height="753" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1608278269745" />
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1608795924343">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1608795924343" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608857320792">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1608857320792" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1608654391171">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608654391171" />
+    <state width="1493" height="184" key="GridCell.Tab.0.bottom" timestamp="1608865765051">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="184" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608865765051" />
+    <state width="1493" height="184" key="GridCell.Tab.0.center" timestamp="1608865765051">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="184" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608865765051" />
+    <state width="1493" height="184" key="GridCell.Tab.0.left" timestamp="1608865765051">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="184" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608865765051" />
+    <state width="1493" height="184" key="GridCell.Tab.0.right" timestamp="1608865765051">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="184" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608865765051" />
+    <state width="1196" height="124" key="GridCell.Tab.1.bottom" timestamp="1608864516599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1196" height="124" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608864516599" />
+    <state width="1196" height="124" key="GridCell.Tab.1.center" timestamp="1608864516598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1196" height="124" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1608864516598" />
+    <state width="1196" height="124" key="GridCell.Tab.1.left" timestamp="1608864516598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1196" height="124" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1608864516598" />
+    <state width="1196" height="124" key="GridCell.Tab.1.right" timestamp="1608864516598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1196" height="124" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1608864516598" />
+    <state width="1196" height="124" key="GridCell.Tab.2.bottom" timestamp="1608864516598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1196" height="124" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608864516598" />
+    <state width="1196" height="124" key="GridCell.Tab.2.center" timestamp="1608864516598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1196" height="124" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1608864516598" />
+    <state width="1196" height="124" key="GridCell.Tab.2.left" timestamp="1608864516598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1196" height="124" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1608864516598" />
+    <state width="1196" height="124" key="GridCell.Tab.2.right" timestamp="1608864516598">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1196" height="124" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1608864516598" />
+    <state width="1196" height="156" key="GridCell.Tab.3.bottom" timestamp="1608857743492">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1196" height="156" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608857743492" />
+    <state width="1196" height="156" key="GridCell.Tab.3.center" timestamp="1608857743492">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1196" height="156" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1608857743492" />
+    <state width="1196" height="156" key="GridCell.Tab.3.left" timestamp="1608857743491">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1196" height="156" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1608857743491" />
+    <state width="1196" height="156" key="GridCell.Tab.3.right" timestamp="1608857743492">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1196" height="156" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1608857743492" />
+    <state width="1024" height="428" key="GridCell.Tab.4.bottom" timestamp="1608206178093">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="428" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608206178093" />
+    <state width="1024" height="428" key="GridCell.Tab.4.center" timestamp="1608206178092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="428" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1608206178092" />
+    <state width="1024" height="428" key="GridCell.Tab.4.left" timestamp="1608206178092">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="428" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1608206178092" />
+    <state width="1024" height="428" key="GridCell.Tab.4.right" timestamp="1608206178093">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1024" height="428" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1608206178093" />
+    <state x="220" y="56" key="SettingsEditor" timestamp="1608651960405">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="220" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608651960405" />
+    <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1608206220181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="775" height="419" key="XDebugger.FullValuePopup/0.0.1536.824@0.0.1536.824" timestamp="1608206220181" />
+    <state x="465" y="145" width="973" height="552" key="find.popup" timestamp="1608857998433">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="145" width="973" height="552" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1608857998433" />
+    <state x="178" y="44" key="new project wizard" timestamp="1608202881311">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="44" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1608202881311" />
+    <state x="464" y="168" key="refactoring.ChangeSignatureDialog" timestamp="1608793777519">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="464" y="168" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1608793777519" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/drx/serviceImpl/FareServiceImpl.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+</project>

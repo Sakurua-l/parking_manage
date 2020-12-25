@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.drx.mapper.UserMapper">
+	
+	<select id="findUserByUsername" parameterType="string" resultType="user">
+		SELECT * FROM user_a WHERE username=#{value}
+	</select>
+
+	<select id="findUserByDriverId" parameterType="int" resultType="user">
+		SELECT * FROM user_a WHERE driverId = #{value}
+	</select>
+
+	<!--<delete id="deleteUserById" parameterType="int">-->
+		<!--DELETE FROM USER WHERE id=#{value}-->
+	<!--</delete>-->
+
+	<update id="updateUser" parameterType="user">
+		UPDATE user_a
+		SET username=#{username},password=#{password},authority=#{authority},driverId=#{driverId}
+		WHERE userId=#{userId}
+	</update>
+
+	<insert id="addUser" parameterType="user" useGeneratedKeys="true" keyProperty="userId">
+
+		insert into driver (driverName,gender,idCardNum,phone,address)
+		values (#{username},#{gender},#{idCardNum},#{phone},#{address});
+
+		insert into user_a (username,password,authority,driverId,gender,phone,address,idCardNum)
+		values(#{username},#{password},#{authority},#{driverId},#{gender},#{phone},#{address},#{idCardNum});
+	</insert>
+
+	<update id="updateDriverId" parameterType="user">
+		UPDATE user_a join driver SET user_a.driverId=driver.driverId  WHERE driverName=username;
+	</update>
+
+</mapper>
